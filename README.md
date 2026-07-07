@@ -35,29 +35,29 @@ Follow these instructions to get a local copy of the backend server up and runni
 
 ### Build & Run Instructions
 
-1. Clone the repository:
+1. Clone the repository:  
 git clone https://github.com/weatherr/Soberat-Back-end.git
 
-2. Navigate into the directory:
-cd Soberat-Backend
+2. Navigate into the directory:  
+* cd Soberat-Backend
 
-3. Install the PHP dependencies:
+3. Install the PHP dependencies:  
 composer install
 
-4. Install the Node dependencies and compile web assets:
+4. Install the Node dependencies and compile web assets:  
 npm install
 npm run dev
 
-5. Set up your environment variables:
-cp .env.example .env
+5. Set up your environment variables:  
+cp .env.example .env  
 *(Make sure to update the .env file with your local MySQL database credentials).*
 
-6. Generate application key
+6. Generate application key  
 php artisan key:generate
 
-7. Run the database migrations and install Passport:
-php artisan migrate
+7. Run the database migrations and install Passport:  
+php artisan migrate  
 php artisan passport:install
 
-8. Start the development server:
+8. Start the development server:  
 php artisan serve
