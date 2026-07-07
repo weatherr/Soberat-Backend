@@ -39,7 +39,7 @@ Follow these instructions to get a local copy of the backend server up and runni
 git clone https://github.com/weatherr/Soberat-Back-end.git
 
 2. Navigate into the directory:  
-* cd Soberat-Backend
+cd Soberat-Backend
 
 3. Install the PHP dependencies:  
 composer install
